@@ -1,1 +1,43 @@
-
+[
+	{
+		"name": "Restore Oneself Instantly",
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Apprentice", "Wizard"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        	"row": 0,
+        	"column": 20
+	},
+	{
+		"name": "Gradual Restoration",
+		"uniques": ["[This Unit] gains the [GR Active] status for [5] turns", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Spell"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        	"row": 0,
+        	"column": 21
+	},
+	{
+		"name": "GR Active",
+		"uniques": ["[+10] HP when healing", "Unit will heal every turn, even if it performs an action", "Cannot attack"],
+		"unitTypes": ["Spell"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        	"row": 0,
+        	"column": 22
+	},
+	{
+		"name": "Supercharge",
+		"uniques": ["[+500]% Strength <when attacking>", "[-90]% weight to this choice for AI decisions", "Destroys tile improvements when attacking", "Self-destructs when attacking"],
+		"unitTypes": ["Spell"],
+		"column": 1,
+		"row": 21
+    	},
+	{
+		"name": "Stabilize",
+		"uniques": ["[This Unit] loses the [Supercharge] promotion", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Spell"],
+		"column": 1,
+		"row": 22
+    	}
+]
