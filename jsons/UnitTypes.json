@@ -1,1 +1,20 @@
-
+[
+	{
+		"name": "Apprentice",
+		"movementType": "Land"
+	},
+	{
+		"name": "Wizard",
+		"movementType": "Land"
+	},
+	{
+		"name": "Spell",
+		"movementType": "Land",
+		"uniques": ["No Sight"]
+	},
+	{
+		"name": "Spirit",
+		"movementType": "Land",
+		"uniques": ["No Sight","Cannot attack"]
+	}
+]
