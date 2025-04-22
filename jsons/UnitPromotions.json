@@ -11,7 +11,7 @@
 	{
 		"name": "Gradual Restoration",
 		"uniques": ["[This Unit] gains the [GR Active] status for [5] turns", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Spell"],
+		"unitTypes": ["Spell","Spirit"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         	"row": 0,
@@ -20,7 +20,6 @@
 	{
 		"name": "GR Active",
 		"uniques": ["[+10] HP when healing", "Unit will heal every turn, even if it performs an action", "Cannot attack"],
-		"unitTypes": ["Spell"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         	"row": 0,
@@ -29,15 +28,109 @@
 	{
 		"name": "Supercharge",
 		"uniques": ["[+500]% Strength <when attacking>", "[-90]% weight to this choice for AI decisions", "Destroys tile improvements when attacking", "Self-destructs when attacking"],
-		"unitTypes": ["Spell"],
-		"column": 1,
-		"row": 21
+		"unitTypes": ["Spell","Spirit"],
+		"row": 1,
+		"column": 21
     	},
 	{
 		"name": "Stabilize",
 		"uniques": ["[This Unit] loses the [Supercharge] promotion", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Spell"],
-		"column": 1,
-		"row": 22
+		"unitTypes": ["Spell","Spirit"],
+		"row": 1,
+		"column": 22
+    	},
+
+	
+	{
+		"name": "Soul I",
+		"uniques": ["Can carry [1] extra [Spell] units"],
+		"unitTypes": ["Apprentice"],
+        	"row": 2,
+        	"column": 21
+	},
+	{
+		"name": "Soul II",
+		"prerequisites": ["Soul I"],
+		"uniques": ["Can carry [1] extra [Spell] units"],
+		"unitTypes": ["Apprentice"],
+		"row": 2,
+		"column": 22
+	},
+	{
+		"name": "Soul III",
+		"prerequisites": ["Soul II"],
+		"uniques": ["Can carry [1] extra [Spell] units"],
+		"unitTypes": ["Apprentice"],
+        	"row": 2,
+        	"column": 23
+	},
+	{
+		"name": "Prudence I",
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Apprentice"],
+	        "row": 3,
+	        "column": 21
+	},
+	{
+		"name": "Prudence II",
+		"prerequisites": ["Prudence I"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Apprentice"],
+	        "row": 3,
+	        "column": 22
+	},
+	{
+		"name": "Prudence III",
+		"prerequisites": ["Prudence II"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"],
+		"unitTypes": ["Apprentice"],
+	        "row": 3,
+	        "column": 23
+	},
+	{
+		"name": "Fortitude I",
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Apprentice"],
+	        "row": 4,
+	        "column": 21
+	},
+	{
+		"name": "Fortitude II",
+		"prerequisites": ["Fortitude I"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Apprentice"],
+	        "row": 4,
+	        "column": 22
+	},
+	{
+		"name": "Fortitude III",
+		"prerequisites": ["Fortitude II"],
+		"uniques": ["Invisible to non-adjacent units", "Withdraws before melee combat <with [75]% chance>"],
+		"unitTypes": ["Apprentice"],
+	        "row": 4,
+	        "column": 23
+	},
+	{
+		"name": "Justice I",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Apprentice"],
+	        "row": 5,
+	        "column": 21
+	},
+	{
+		"name": "Justice II",
+		"prerequisites": ["Justice I"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Apprentice"],
+	        "row": 5,
+	        "column": 22
+	},
+	{
+		"name": "Justice III",
+		"prerequisites": ["Justice II"],
+		"uniques": ["Can see invisible [Spirit] units", "May capture killed [Spirit] units"],
+		"unitTypes": ["Apprentice"],
+	        "row": 5,
+	        "column": 23
     	}
 ]
