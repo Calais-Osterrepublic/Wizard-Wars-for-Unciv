@@ -15,6 +15,6 @@
 	{
 		"name": "Spirit",
 		"movementType": "Land",
-		"uniques": ["No Sight"]
+		"uniques": ["Invisible to others"]
 	}
 ]
