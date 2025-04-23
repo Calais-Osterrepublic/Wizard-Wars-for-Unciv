@@ -132,5 +132,28 @@
 		"unitTypes": ["Apprentice"],
 	        "row": 5,
 	        "column": 23
+    	},
+	{
+		"name": "Temperance I",
+		"uniques": ["Unable to pillage tiles", "[-33]% maintenance costs"],
+		"unitTypes": ["Apprentice"],
+	        "row": 6,
+	        "column": 21
+	},
+	{
+		"name": "Temperance II",
+		"prerequisites": ["Temperance I"],
+		"uniques": ["Unable to capture cities", "[-33]% maintenance costs"],
+		"unitTypes": ["Apprentice"],
+	        "row": 6,
+	        "column": 22
+	},
+	{
+		"name": "Temperance III",
+		"prerequisites": ["Temperance II"],
+		"uniques": ["All healing effects doubled", "[-33]% maintenance costs"],
+		"unitTypes": ["Apprentice"],
+	        "row": 6,
+	        "column": 23
     	}
 ]
