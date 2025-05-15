@@ -82,7 +82,7 @@
 	{
 		"name": "Prudence III",
 		"prerequisites": ["Prudence II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"],
+		"uniques": ["Withdraws before melee combat <with [75]% chance>"],
 		"unitTypes": ["Apprentice"],
 	        "row": 3,
 	        "column": 23
@@ -151,9 +151,80 @@
 	{
 		"name": "Temperance III",
 		"prerequisites": ["Temperance II"],
-		"uniques": ["All healing effects doubled", "[-33]% maintenance costs", "May capture killed [Military] units"],
+		"uniques": ["[-33]% maintenance costs", "Ignores terrain cost"],
 		"unitTypes": ["Apprentice"],
 	        "row": 6,
 	        "column": 23
+    	},
+	
+	{
+		"name": "Faith I",
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Wizard"],
+	        "row": 7,
+	        "column": 21
+	},
+	{
+		"name": "Faith II",
+		"prerequisites": ["Faith I"],
+		"uniques": ["Earn [100]% of the damage done to [Military] units as [Mana]", "Earn [25]% of the damage done to [City] units as [Mana]"],
+		"unitTypes": ["Wizard"],
+	        "row": 7,
+	        "column": 22
+	},
+	{
+		"name": "Faith III",
+		"prerequisites": ["Faith II"],
+		"uniques": ["All healing effects doubled", "May capture killed [Military] units"],
+		"unitTypes": ["Wizard"],
+	        "row": 7,
+	        "column": 23
+    	},
+	{
+		"name": "Hope I",
+		"uniques": ["Unable to pillage tiles", "[-33]% maintenance costs"],
+		"unitTypes": ["Wizard"],
+	        "row": 8,
+	        "column": 21
+	},
+	{
+		"name": "Hope II",
+		"prerequisites": ["Hope I"],
+		"uniques": ["Unable to capture cities", "[-33]% maintenance costs"],
+		"unitTypes": ["Wizard"],
+	        "row": 8,
+	        "column": 22
+	},
+	{
+		"name": "Hope III",
+		"prerequisites": ["Hope II"],
+		"uniques": ["All healing effects doubled", "[-33]% maintenance costs", "May capture killed [Military] units"],
+		"unitTypes": ["Wizard"],
+	        "row": 8,
+	        "column": 23
+    	},
+	{
+		"name": "Charity I",
+		"uniques": ["Unable to pillage tiles", "[-33]% maintenance costs"],
+		"unitTypes": ["Wizard"],
+	        "row": 9,
+	        "column": 21
+	},
+	{
+		"name": "Charity II",
+		"prerequisites": ["Charity I"],
+		"uniques": ["Unable to capture cities", "[-33]% maintenance costs"],
+		"unitTypes": ["Wizard"],
+	        "row": 9,
+	        "column": 22
+	},
+	{
+		"name": "Charity III",
+		"prerequisites": ["Charity II"],
+		"uniques": ["All healing effects doubled", "[-33]% maintenance costs", "May capture killed [Military] units"],
+		"unitTypes": ["Wizard"],
+	        "row": 9,
+	        "column": 23
     	}
+	
 ]
