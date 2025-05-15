@@ -167,7 +167,7 @@
 	{
 		"name": "Faith II",
 		"prerequisites": ["Faith I"],
-		"uniques": ["Earn [100]% of the damage done to [Military] units as [Mana]", "Earn [25]% of the damage done to [City] units as [Mana]"],
+		"uniques": ["Earn [100]% of the damage done to [Military] units as [Faith]", "Earn [25]% of the damage done to [City] units as [Faith]"],
 		"unitTypes": ["Wizard"],
 	        "row": 7,
 	        "column": 22
@@ -198,14 +198,14 @@
 	{
 		"name": "Hope III",
 		"prerequisites": ["Hope II"],
-		"uniques": ["All healing effects doubled", "[-33]% maintenance costs", "May capture killed [Military] units"],
+		"uniques": [""],
 		"unitTypes": ["Wizard"],
 	        "row": 8,
 	        "column": 23
     	},
 	{
 		"name": "Charity I",
-		"uniques": ["Unable to pillage tiles", "[-33]% maintenance costs"],
+		"uniques": ["All adjacent units heal [5] HP when healing"],
 		"unitTypes": ["Wizard"],
 	        "row": 9,
 	        "column": 21
@@ -213,7 +213,7 @@
 	{
 		"name": "Charity II",
 		"prerequisites": ["Charity I"],
-		"uniques": ["Unable to capture cities", "[-33]% maintenance costs"],
+		"uniques": ["All adjacent units heal [5] HP when healing"],
 		"unitTypes": ["Wizard"],
 	        "row": 9,
 	        "column": 22
@@ -221,7 +221,7 @@
 	{
 		"name": "Charity III",
 		"prerequisites": ["Charity II"],
-		"uniques": ["All healing effects doubled", "[-33]% maintenance costs", "May capture killed [Military] units"],
+		"uniques": ["Earn [100]% of the damage done to [Military] units as [Culture]"],
 		"unitTypes": ["Wizard"],
 	        "row": 9,
 	        "column": 23
